@@ -89,6 +89,7 @@ class App extends Component {
                   lat={flat.lat}
                   lng={flat.lng}
                   text={flat.price}
+                  textPrice={flat.priceCurrency}
                   selected={flat === this.state.selectedFlat}
                 />
               );

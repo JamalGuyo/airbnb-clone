@@ -12,7 +12,12 @@ class Marker extends React.Component {
       classes += ' selected';
     }
 
-    return <div className={classes}>{this.props.text}</div>;
+    return (
+      <div className={classes}>
+        {this.props.text}
+        {this.props.textPrice}
+      </div>
+    );
   }
 }
 
